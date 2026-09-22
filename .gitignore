@@ -1,0 +1,5 @@
+dist
+.seed-cache
+.env
+.env.*
+.DS_Store

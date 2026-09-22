@@ -1,0 +1,3 @@
+fox-device:
+  tag: section
+  class: py-16 sm:py-20 bg-[#23252b] text-[#f3eee8] overflow-hidden
