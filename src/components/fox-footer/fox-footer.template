@@ -1,0 +1,32 @@
+@container size=wide
+
+  @div class=grid grid-cols-1 md:grid-cols-3 items-start gap-8
+
+    @div class=flex flex-col gap-5
+
+      @image src=/static/logoboot.png, alt="FoxCoins", class=w-[190px] h-auto
+
+      @text class=text-sm text-[#a5a29d]
+        (©) 2026 FoxCoins. Todos os direitos reservados
+
+    @div class=flex flex-col items-end gap-3
+
+      @div class=flex items-center gap-1
+
+        @text class=text-sm text-[#d6d3ce]
+          Built with Seed
+
+        @image src=/static/seed.svg, alt="Seed", class=w-4 h-4
+
+
+      @div class=flex items-center gap-3
+
+        @image src=/static/discord.svg, alt="Discord", class=w-6 h-6
+
+        @image src=/static/youtube.svg, alt="YouTube", class=w-6 h-6
+
+        @image src=/static/git.svg, alt="GitHub", class=w-6 h-6
+
+@div class=flex justify-center pt-2
+  @link href=#top, class=text-[#f3eee8] text-2xl font-bold hover:text-[#ff6a1a]
+       Voltar para o início

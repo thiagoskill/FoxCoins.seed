@@ -3,6 +3,9 @@ title: FoxCoins
 lang: pt-BR
 ---
 
+@div id=top
+
+
 @fox-hero
 
   @logo
@@ -26,6 +29,7 @@ lang: pt-BR
     @image src=/static/fox-mascot.webp, alt="Mascote FoxCoins", class=w-[320px] max-w-full
 
 
+
 @div class=bg-[#23252b] text-[#f3eee8] pt-0 pb-14
 
   @container size=wide
@@ -36,10 +40,12 @@ lang: pt-BR
 
         @row align=start, gap=sm
           @div class=w-10 h-10 rounded-full border-2 border-[#ff6a1a] flex items-center justify-center shrink-0
+
             @span class=text-[#ff6a1a] text-xs font-bold
               01
 
           @column gap=sm
+
             @div class=text-[#f3eee8] text-sm font-semibold
               Entrega automática
 
@@ -49,10 +55,12 @@ lang: pt-BR
 
         @row align=start, gap=sm
           @div class=w-10 h-10 rounded-full border-2 border-[#ff6a1a] flex items-center justify-center shrink-0
+
             @span class=text-[#ff6a1a] text-xs font-bold
               02
 
           @column gap=sm
+
             @div class=text-[#f3eee8] text-sm font-semibold
               Pix e cartão
 
@@ -62,10 +70,12 @@ lang: pt-BR
 
         @row align=start, gap=sm
           @div class=w-10 h-10 rounded-full border-2 border-[#ff6a1a] flex items-center justify-center shrink-0
+
             @span class=text-[#ff6a1a] text-xs font-bold
               03
 
           @column gap=sm
+
             @div class=text-[#f3eee8] text-sm font-semibold
               Compra segura
 
@@ -75,15 +85,18 @@ lang: pt-BR
 
         @row align=start, gap=sm
           @div class=w-10 h-10 rounded-full border-2 border-[#ff6a1a] flex items-center justify-center shrink-0
+
             @span class=text-[#ff6a1a] text-xs font-bold
               04
 
           @column gap=sm
+
             @div class=text-[#f3eee8] text-sm font-semibold
               Suporte humano
 
             @div class=text-[#a5a29d] text-xs
               Ajuda de verdade quando precisar
+
 
 
     @div class=max-w-3xl mx-auto text-center pt-12 pb-8
@@ -98,9 +111,11 @@ lang: pt-BR
         Do PC ao console, do portátil ao mobile. A FoxCoins acompanha você em todas as suas jornadas.
 
 
+
     @grid cols=4, gap=md
 
       @fox-device
+
         @media
           @image src=/static/fox-pc.png, alt="Mascote FoxCoins no PC", class=w-full rounded-xl
 
@@ -112,6 +127,7 @@ lang: pt-BR
 
 
       @fox-device
+
         @media
           @image src=/static/console.png, alt="Mascote FoxCoins no console", class=w-full rounded-xl
 
@@ -123,6 +139,7 @@ lang: pt-BR
 
 
       @fox-device
+
         @media
           @image src=/static/portatil.png, alt="Mascote FoxCoins no portátil", class=w-full rounded-xl
 
@@ -134,6 +151,7 @@ lang: pt-BR
 
 
       @fox-device
+
         @media
           @image src=/static/comunity.png, alt="Comunidade FoxCoins", class=w-full rounded-xl
 
@@ -142,3 +160,33 @@ lang: pt-BR
 
         @description
           Mais que jogos, uma comunidade.
+
+
+
+@div class=bg-[#23252b] text-[#f3eee8] pt-0 pb-14
+
+  @container size=wide
+
+    @div class=relative overflow-hidden rounded-2xl
+
+      @image src=/static/bannerboot.png, alt="Banner FoxCoins", class=w-full h-auto block
+
+      @div class=absolute inset-0 flex items-center
+
+        @div class=pl-10 sm:pl-14 lg:pl-20 max-w-xl
+
+          @div class=text-[#f3eee8] text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight
+            Pronto para
+
+            @span class=text-[#ff6a1a]
+              jogar?
+
+          @div class=text-[#b8b5b0] text-sm sm:text-base lg:text-lg mt-4 mb-6
+            Encontre os melhores gift cards para elevar seu jogo.
+
+          @button href=/loja, class=bg-[#ff6a1a] text-white px-6 py-3 rounded-lg
+            Acessar a loja
+
+
+
+@fox-footer

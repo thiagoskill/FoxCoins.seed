@@ -1,0 +1,5 @@
+fox-footer:
+
+  tag: section
+
+  class: py-10 bg-[#11161b] text-[#f3eee8] border-t border-[#23282f]
