@@ -1,6 +1,9 @@
 ---
 title: FoxCoins
 lang: pt-BR
+js:
+  - /static/gta-countdown.js
+
 ---
 
 @div id=top
@@ -187,6 +190,42 @@ lang: pt-BR
           @button href=/loja, class=bg-[#ff6a1a] text-white px-6 py-3 rounded-lg
             Acessar a loja
 
+@div class=bg-[#181a1f] text-[#f3eee8] py-12
 
+  @container size=wide
+
+    @div class=text-center
+
+      @div class=text-[#ff6a1a] text-xs font-bold tracking-[0.25em]
+        CONTAGEM REGRESSIVA
+
+      @div class=text-3xl sm:text-4xl font-bold mt-3
+        GTA VI
+
+      @div class=flex justify-center gap-8 mt-8
+
+        @div class=text-center
+          @div id=gta-days, class=text-[#ff6a1a] text-4xl font-bold
+            00
+          @div class=text-[#a5a29d] text-sm mt-1
+            Dias
+
+        @div class=text-center
+          @div id=gta-hours, class=text-[#ff6a1a] text-4xl font-bold
+            00
+          @div class=text-[#a5a29d] text-sm mt-1
+            Horas
+
+        @div class=text-center
+          @div id=gta-minutes, class=text-[#ff6a1a] text-4xl font-bold
+            00
+          @div class=text-[#a5a29d] text-sm mt-1
+            Minutos
+
+        @div class=text-center
+          @div id=gta-seconds, class=text-[#ff6a1a] text-4xl font-bold
+            00
+          @div class=text-[#a5a29d] text-sm mt-1
+            Segundos
 
 @fox-footer
