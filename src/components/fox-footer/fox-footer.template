@@ -9,7 +9,14 @@
       @text class=text-sm text-[#a5a29d]
         (©) 2026 FoxCoins. Todos os direitos reservados
 
-    @div class=flex flex-col items-end gap-3
+
+    @div class=flex justify-center pt-2
+
+      @link href=#top, class=text-[#f3eee8] text-2xl font-bold hover:text-[#ff6a1a]
+        Voltar para o início
+
+
+    @div class=flex flex-col items-end gap-3 justify-self-end
 
       @div class=flex items-center gap-1
 
@@ -26,7 +33,3 @@
         @image src=/static/youtube.svg, alt="YouTube", class=w-6 h-6
 
         @image src=/static/git.svg, alt="GitHub", class=w-6 h-6
-
-@div class=flex justify-center pt-2
-  @link href=#top, class=text-[#f3eee8] text-2xl font-bold hover:text-[#ff6a1a]
-       Voltar para o início

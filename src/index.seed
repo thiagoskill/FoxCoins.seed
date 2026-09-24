@@ -11,8 +11,6 @@ js:
 
 @fox-hero
 
-  @logo
-    @image src=/static/logo.png, alt="FoxCoins", class=w-[90px] h-auto
 
   @title
     Jogue mais.
@@ -197,7 +195,7 @@ js:
     @div class=text-center
 
       @div class=text-[#ff6a1a] text-xs font-bold tracking-[0.25em]
-        CONTAGEM REGRESSIVA
+        CONTAGEM REGRESSIVA!
 
       @div class=text-3xl sm:text-4xl font-bold mt-3
         GTA VI
