@@ -25,3 +25,30 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+// ANIMACACAO
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return
+
+      const element = entry.target
+
+      element.classList.remove('opacity-0')
+      element.classList.remove('-translate-x-12')
+      element.classList.remove('translate-x-12')
+
+      element.classList.add('opacity-100')
+      element.classList.add('translate-x-0')
+
+      observer.unobserve(element)
+    })
+  },
+  {
+    threshold: 0.15,
+  },
+)
+
+document.querySelectorAll('[data-reveal]').forEach((element) => {
+  observer.observe(element)
+})

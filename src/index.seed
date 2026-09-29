@@ -35,7 +35,7 @@ js:
 
   @container size=wide
 
-    @div class=border-y border-[#3a3d44] py-6
+    @div data-reveal=true, class=border-y border-[#3a3d44] py-6 opacity-0 -translate-x-12 transition-all duration-700 ease-out
 
       @grid cols=4, gap=md
 
@@ -100,7 +100,7 @@ js:
 
 
 
-    @div class=max-w-3xl mx-auto text-center pt-12 pb-8
+    @div data-reveal=true, class=max-w-3xl mx-auto text-center pt-12 pb-8 opacity-0 translate-x-12 transition-all duration-700 ease-out
 
       @span class=text-[#ff6a1a] text-xs font-bold tracking-[0.25em]
         SEMPRE PRONTO PARA O PRÓXIMO JOGO
@@ -113,58 +113,60 @@ js:
 
 
 
-    @grid cols=4, gap=md
+    @div data-reveal=true, class=opacity-0 -translate-x-12 transition-all duration-700 ease-out
 
-      @fox-device
+      @grid cols=4, gap=md
 
-        @media
-          @image src=/static/fox-pc.png, alt="Mascote FoxCoins no PC", class=w-full rounded-xl
+        @fox-device
 
-        @title
-          No PC
+          @media
+            @image src=/static/fox-pc.png, alt="Mascote FoxCoins no PC", class=w-full rounded-xl
 
-        @description
-          Mais jogos. Mais liberdade.
+          @title
+            No PC
 
-
-      @fox-device
-
-        @media
-          @image src=/static/console.png, alt="Mascote FoxCoins no console", class=w-full rounded-xl
-
-        @title
-          No console
-
-        @description
-          Jogue seus favoritos.
+          @description
+            Mais jogos. Mais liberdade.
 
 
-      @fox-device
+        @fox-device
 
-        @media
-          @image src=/static/portatil.png, alt="Mascote FoxCoins no portátil", class=w-full rounded-xl
+          @media
+            @image src=/static/console.png, alt="Mascote FoxCoins no console", class=w-full rounded-xl
 
-        @title
-          No portátil
+          @title
+            No console
 
-        @description
-          Seus jogos, em qualquer lugar.
-
-
-      @fox-device
-
-        @media
-          @image src=/static/comunity.png, alt="Comunidade FoxCoins", class=w-full rounded-xl
-
-        @title
-          Sempre com você
-
-        @description
-          Mais que jogos, uma comunidade.
+          @description
+            Jogue seus favoritos.
 
 
+        @fox-device
 
-@div class=bg-[#23252b] text-[#f3eee8] pt-0 pb-14
+          @media
+            @image src=/static/portatil.png, alt="Mascote FoxCoins no portátil", class=w-full rounded-xl
+
+          @title
+            No portátil
+
+          @description
+            Seus jogos, em qualquer lugar.
+
+
+        @fox-device
+
+          @media
+            @image src=/static/comunity.png, alt="Comunidade FoxCoins", class=w-full rounded-xl
+
+          @title
+            Sempre com você
+
+          @description
+            Mais que jogos, uma comunidade.
+
+
+
+@div data-reveal=true, class=bg-[#23252b] text-[#f3eee8] pt-0 pb-14 opacity-0 translate-x-12 transition-all duration-700 ease-out
 
   @container size=wide
 
@@ -180,7 +182,7 @@ js:
             Pronto para
 
             @span class=text-[#ff6a1a]
-              jogar?
+               jogar?
 
           @div class=text-[#b8b5b0] text-sm sm:text-base lg:text-lg mt-4 mb-6
             Encontre os melhores gift cards para elevar seu jogo.
@@ -188,7 +190,9 @@ js:
           @button href=/loja, class=bg-[#ff6a1a] text-white px-6 py-3 rounded-lg
             Acessar a loja
 
-@div class=bg-[#181a1f] text-[#f3eee8] py-12
+
+
+@div data-reveal=true, class=bg-[#181a1f] text-[#f3eee8] py-12 opacity-0 -translate-x-12 transition-all duration-700 ease-out
 
   @container size=wide
 
@@ -225,5 +229,6 @@ js:
             00
           @div class=text-[#a5a29d] text-sm mt-1
             Segundos
+
 
 @fox-footer
